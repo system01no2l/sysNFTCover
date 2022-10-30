@@ -1,0 +1,19 @@
+{
+    "name": "BackZetsu",
+    "description": "This is image of BackZetsu",
+    "image": "http://ipfs.io/ipfs/QmTmQiEroMN6s6k17Ysnf97w96M67QaJBeZ5ktkXQHyJVR",
+    "attributes": [
+        {
+          "trait_type": "Body", 
+          "value": "Starfish"
+        }, 
+        {
+          "trait_type": "Eyes", 
+          "value": "Big"
+        }, 
+        {
+          "trait_type": "Age", 
+          "value": "22"
+        }
+      ]
+    }

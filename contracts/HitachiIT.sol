@@ -5,7 +5,7 @@ import './ERC721.sol';
 
 // Create collectible smart contract
 
-contract BackZetsu is ERC721 {
+contract HitachiIT is ERC721 {
     // ERC721 metadata
     string public name;
     string public symbol;
