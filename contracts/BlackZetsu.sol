@@ -24,10 +24,10 @@ contract BackZetsu is ERC721 {
     }
 
     function mint(string memory _tokenURI) public {
-        tokenCount +=1; // tokenId
-        _balances[msg.sender] += 1;
-        _owners[tokenCount] = msg.sender;
-        _tokenURIs[tokenCount] = _tokenURI;
+        tokenCount += 1; // tokenId
+        _balances[msg.sender] += 1; // set balance of owner
+        _owners[tokenCount] = msg.sender; // set owner of tokenId
+        _tokenURIs[tokenCount] = _tokenURI; // set URI of tokenId
 
         emit Transfer(address(0), msg.sender, tokenCount);
     }
